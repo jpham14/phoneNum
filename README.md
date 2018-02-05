@@ -12,8 +12,8 @@ To run this Java servlet, you will need in addition to this project:
 1. Install Eclipse IDE
 1. Install Apache Tomcat
 1. Run Eclipse and create a workspace
-1. A. Clone the repository (You can choose to save it inside the Eclipse workspace if you like), and in Eclipse go to File > Open Projects from File System. Beside Import Source, click Directory, then find and select the respository folder. Then click Finish.
-	A. Download the WAR file. Then in Eclipse, go to File > Import, expand the Web folder and select WAR file you downloaded.
+1. a. Clone the repository (You can choose to save it inside the Eclipse workspace if you like), and in Eclipse go to File > Open Projects from File System. Beside Import Source, click Directory, then find and select the respository folder. Then click Finish.
+	a. Download the WAR file. Then in Eclipse, go to File > Import, expand the Web folder and select WAR file you downloaded.
 1. Create a server in Eclipse. In Eclipse, click on the Servers tab at the bottom of the screen. In the empty space, right click and select New > Server. Select Apache v7.0 Server or later. Then click Next.
 1. Add phoneNum. 
 1. Back in the Servers tab, right click on the server and select Start.
