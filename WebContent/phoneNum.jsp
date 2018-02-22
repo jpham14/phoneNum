@@ -1,18 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="ISO-8859-1" language="java"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+	<link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Phone Number Parse</title>
 </head>
 <body>
-
-<form action="parseFile" method="post" enctype="multipart/form-data" accept-charset="UTF-8">
-	<input type="file" name="phoneFile">
-	<br />
-	<input type="submit" value="Submit">
-</form>
-
+	<h2>POST</h2>
+	<form name="postnumber" action="/phoneNum/parseFile" method="post" accept-charset="UTF-8"
+          enctype="multipart/form-data">
+         <p>Upload a text file</p>
+         <input type="file" name="numberFile" size="30">
+         <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
